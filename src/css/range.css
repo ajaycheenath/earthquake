@@ -1,0 +1,34 @@
+.numberCircle {
+    display:inline-block;
+    border-radius:50%;
+    border:2px solid;
+    font-size:22px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.numberCircle:before,
+.numberCircle:after {
+    content:'\200B';
+    display:inline-block;
+    line-height:0px;
+
+    padding-top:50%;
+    padding-bottom:50%;
+}
+
+.numberCircle:before {
+    padding-left:8px;
+}
+.numberCircle:after {
+    padding-right:8px;
+}
+.numberCircle:hover {
+  background-color: #47C2BE;
+  color: #333;
+}
+
+.selected {
+  background-color: #DAF7A6;
+  color: #333;
+}

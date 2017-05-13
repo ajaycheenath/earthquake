@@ -1,0 +1,592 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.3.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose readDependencies loading dependencies from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/package.json
+5 verbose install where, deps [ '/Users/afrancis1/Downloads/back/externaldisk/react/core/friday',
+5 verbose install   [ 'autoprefixer',
+5 verbose install     'axios',
+5 verbose install     'babel-cli',
+5 verbose install     'babel-eslint',
+5 verbose install     'babel-jscs',
+5 verbose install     'babel-loader',
+5 verbose install     'babel-preset-es2015',
+5 verbose install     'babel-preset-react',
+5 verbose install     'babel-preset-react-hmre',
+5 verbose install     'babel-preset-stage-0',
+5 verbose install     'chai',
+5 verbose install     'cross-env',
+5 verbose install     'css-loader',
+5 verbose install     'eslint',
+5 verbose install     'eslint-plugin-react',
+5 verbose install     'express',
+5 verbose install     'extract-text-webpack-plugin',
+5 verbose install     'html-webpack-plugin',
+5 verbose install     'jscs',
+5 verbose install     'jsdom',
+5 verbose install     'json-loader',
+5 verbose install     'mocha',
+5 verbose install     'mocha-jsdom',
+5 verbose install     'node-sass',
+5 verbose install     'postcss-loader',
+5 verbose install     'react',
+5 verbose install     'react-addons-test-utils',
+5 verbose install     'react-dom',
+5 verbose install     'react-redux',
+5 verbose install     'react-transform-hmr',
+5 verbose install     'redux',
+5 verbose install     'redux-logger',
+5 verbose install     'redux-promise-middleware',
+5 verbose install     'redux-thunk',
+5 verbose install     'rimraf',
+5 verbose install     'sinon',
+5 verbose install     'sinon-chai',
+5 verbose install     'stats-webpack-plugin',
+5 verbose install     'style-loader',
+5 verbose install     'webpack',
+5 verbose install     'webpack-dev-middleware',
+5 verbose install     'webpack-hot-middleware' ] ]
+6 verbose install where, peers [ '/Users/afrancis1/Downloads/back/externaldisk/react/core/friday',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/package.json
+8 info preinstall abs@0.1.0
+9 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/S/package.json
+10 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/autoprefixer/package.json
+11 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/axios/package.json
+12 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-cli/package.json
+13 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-core/package.json
+14 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-eslint/package.json
+15 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-jscs/package.json
+16 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-loader/package.json
+17 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-react-relay/package.json
+18 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators/package.json
+19 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators-legacy/package.json
+20 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-es2015/package.json
+21 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-react/package.json
+22 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-react-hmre/package.json
+23 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-stage-0/package.json
+24 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin/package.json
+25 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin-loader/package.json
+26 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/chai/package.json
+27 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/compression-webpack-plugin/package.json
+28 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/copy-webpack-plugin/package.json
+29 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/cross-env/package.json
+30 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/css-loader/package.json
+31 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/eslint/package.json
+32 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/eslint-plugin-react/package.json
+33 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/express/package.json
+34 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/express-graphql/package.json
+35 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/extract-text-webpack-plugin/package.json
+36 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/fs/package.json
+37 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/graphql/package.json
+38 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/html-webpack-plugin/package.json
+39 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/imdb-api/package.json
+40 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/jscs/package.json
+41 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/jsdom/package.json
+42 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/json-loader/package.json
+43 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/mocha/package.json
+44 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/mocha-jsdom/package.json
+45 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/net/package.json
+46 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/node-sass/package.json
+47 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/postcss-loader/package.json
+48 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react/package.json
+49 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-addons-test-utils/package.json
+50 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-bootstrap/package.json
+51 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-dom/package.json
+52 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-redux/package.json
+53 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-router/package.json
+54 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-transform-hmr/package.json
+55 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-transition-group/package.json
+56 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-youtube/package.json
+57 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux/package.json
+58 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux-logger/package.json
+59 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux-promise-middleware/package.json
+60 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux-thunk/package.json
+61 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/rimraf/package.json
+62 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/sinon/package.json
+63 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/sinon-chai/package.json
+64 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/stats-webpack-plugin/package.json
+65 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/style-loader/package.json
+66 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/tls/package.json
+67 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/webpack/package.json
+68 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/webpack-dev-middleware/package.json
+69 verbose installManyTop reading scoped package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/webpack-hot-middleware/package.json
+70 info package.json S@0.0.1 No description
+71 info package.json S@0.0.1 No repository field.
+72 info package.json S@0.0.1 No README data
+73 info package.json copy-webpack-plugin@4.0.1 No README data
+74 info package.json fs@0.0.1-security fs is also the name of a node core module.
+75 info package.json stats-webpack-plugin@0.2.2 No license field.
+76 info package.json tls@0.0.1 tls is also the name of a node core module.
+77 info package.json tls@0.0.1 No license field.
+78 info package.json compression-webpack-plugin@0.3.2 No license field.
+79 info package.json net@1.0.2 net is also the name of a node core module.
+80 info package.json net@1.0.2 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+81 info package.json net@1.0.2 No README data
+82 info package.json net@1.0.2 license should be a valid SPDX license expression
+83 verbose readDependencies loading dependencies from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/package.json
+84 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/S/package.json
+85 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/autoprefixer/package.json
+86 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/axios/package.json
+87 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-cli/package.json
+88 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-core/package.json
+89 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-eslint/package.json
+90 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-jscs/package.json
+91 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-loader/package.json
+92 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-react-relay/package.json
+93 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators/package.json
+94 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators-legacy/package.json
+95 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-es2015/package.json
+96 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-react/package.json
+97 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-react-hmre/package.json
+98 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-preset-stage-0/package.json
+99 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin/package.json
+100 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin-loader/package.json
+101 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/chai/package.json
+102 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/compression-webpack-plugin/package.json
+103 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/copy-webpack-plugin/package.json
+104 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/cross-env/package.json
+105 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/css-loader/package.json
+106 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/eslint/package.json
+107 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/eslint-plugin-react/package.json
+108 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/express/package.json
+109 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/express-graphql/package.json
+110 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/extract-text-webpack-plugin/package.json
+111 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/fs/package.json
+112 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/graphql/package.json
+113 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/html-webpack-plugin/package.json
+114 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/imdb-api/package.json
+115 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/jscs/package.json
+116 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/jsdom/package.json
+117 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/json-loader/package.json
+118 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/mocha/package.json
+119 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/mocha-jsdom/package.json
+120 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/net/package.json
+121 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/node-sass/package.json
+122 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/postcss-loader/package.json
+123 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react/package.json
+124 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-addons-test-utils/package.json
+125 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-bootstrap/package.json
+126 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-dom/package.json
+127 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-redux/package.json
+128 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-router/package.json
+129 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-transform-hmr/package.json
+130 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-transition-group/package.json
+131 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-youtube/package.json
+132 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux/package.json
+133 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux-logger/package.json
+134 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux-promise-middleware/package.json
+135 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/redux-thunk/package.json
+136 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/rimraf/package.json
+137 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/sinon/package.json
+138 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/sinon-chai/package.json
+139 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/stats-webpack-plugin/package.json
+140 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/style-loader/package.json
+141 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/tls/package.json
+142 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/webpack/package.json
+143 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/webpack-dev-middleware/package.json
+144 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/webpack-hot-middleware/package.json
+145 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/babel/package.json
+146 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/babel-doctor/package.json
+147 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/babel-external-helpers/package.json
+148 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/babel-node/package.json
+149 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/cross-env/package.json
+150 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/eslint/package.json
+151 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/jscs/package.json
+152 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/mocha/package.json
+153 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/rimraf/package.json
+154 verbose targetResolver reading package data from /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/.bin/webpack/package.json
+155 verbose already installed skipping babel-preset-react@^6.3.13 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+156 verbose already installed skipping babel-preset-react-hmre@^1.1.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+157 verbose already installed skipping babel-preset-stage-0@^6.3.13 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+158 verbose already installed skipping chai@^3.2.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+159 verbose already installed skipping cross-env@^1.0.7 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+160 verbose already installed skipping css-loader@^0.19.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+161 verbose already installed skipping eslint@^1.5.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+162 verbose already installed skipping eslint-plugin-react@^3.4.2 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+163 verbose already installed skipping express@^4.13.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+164 verbose already installed skipping extract-text-webpack-plugin@^0.8.2 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+165 verbose already installed skipping html-webpack-plugin@^1.6.1 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+166 verbose already installed skipping jscs@^2.1.1 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+167 verbose already installed skipping jsdom@^6.5.1 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+168 verbose already installed skipping json-loader@^0.5.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+169 verbose already installed skipping mocha@^2.3.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+170 verbose already installed skipping mocha-jsdom@^1.0.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+171 verbose already installed skipping node-sass@^3.13.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+172 verbose already installed skipping postcss-loader@^0.6.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+173 verbose already installed skipping react@^0.14.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+174 verbose already installed skipping react-addons-test-utils@^0.14.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+175 verbose already installed skipping react-dom@^0.14.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+176 verbose already installed skipping react-redux@^5.0.2 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+177 verbose already installed skipping react-transform-hmr@^1.0.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+178 verbose already installed skipping redux@^3.6.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+179 verbose already installed skipping redux-logger@^2.7.4 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+180 verbose already installed skipping redux-promise-middleware@^4.2.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+181 verbose already installed skipping redux-thunk@^2.1.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+182 verbose already installed skipping rimraf@^2.4.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+183 verbose already installed skipping sinon@^1.16.1 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+184 verbose already installed skipping sinon-chai@^2.8.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+185 verbose already installed skipping stats-webpack-plugin@^0.2.1 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+186 verbose already installed skipping style-loader@^0.12.4 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+187 verbose already installed skipping webpack@^1.12.2 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+188 verbose already installed skipping webpack-dev-middleware@^1.2.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+189 verbose already installed skipping webpack-hot-middleware@^2.2.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+190 verbose already installed skipping autoprefixer@^6.0.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+191 verbose already installed skipping axios@^0.15.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+192 verbose already installed skipping babel-cli@^6.4.0 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+193 verbose already installed skipping babel-eslint@^4.1.6 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+194 verbose already installed skipping babel-jscs@^2.0.5 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+195 verbose already installed skipping babel-loader@^6.2.3 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+196 verbose already installed skipping babel-preset-es2015@^6.3.13 /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+197 silly install resolved []
+198 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+199 info linkStuff abs@0.1.0
+200 silly linkStuff abs@0.1.0 has /Users/afrancis1/Downloads/back/externaldisk/react/core as its parent node_modules
+201 verbose linkBins abs@0.1.0
+202 verbose linkMans abs@0.1.0
+203 verbose rebuildBundles abs@0.1.0
+204 verbose rebuildBundles [ '.bin',
+204 verbose rebuildBundles   'S',
+204 verbose rebuildBundles   'autoprefixer',
+204 verbose rebuildBundles   'axios',
+204 verbose rebuildBundles   'babel-cli',
+204 verbose rebuildBundles   'babel-core',
+204 verbose rebuildBundles   'babel-eslint',
+204 verbose rebuildBundles   'babel-jscs',
+204 verbose rebuildBundles   'babel-loader',
+204 verbose rebuildBundles   'babel-plugin-react-relay',
+204 verbose rebuildBundles   'babel-plugin-transform-decorators',
+204 verbose rebuildBundles   'babel-plugin-transform-decorators-legacy',
+204 verbose rebuildBundles   'babel-preset-es2015',
+204 verbose rebuildBundles   'babel-preset-react',
+204 verbose rebuildBundles   'babel-preset-react-hmre',
+204 verbose rebuildBundles   'babel-preset-stage-0',
+204 verbose rebuildBundles   'babel-relay-plugin',
+204 verbose rebuildBundles   'babel-relay-plugin-loader',
+204 verbose rebuildBundles   'chai',
+204 verbose rebuildBundles   'compression-webpack-plugin',
+204 verbose rebuildBundles   'copy-webpack-plugin',
+204 verbose rebuildBundles   'cross-env',
+204 verbose rebuildBundles   'css-loader',
+204 verbose rebuildBundles   'eslint',
+204 verbose rebuildBundles   'eslint-plugin-react',
+204 verbose rebuildBundles   'express',
+204 verbose rebuildBundles   'express-graphql',
+204 verbose rebuildBundles   'extract-text-webpack-plugin',
+204 verbose rebuildBundles   'fs',
+204 verbose rebuildBundles   'graphql',
+204 verbose rebuildBundles   'html-webpack-plugin',
+204 verbose rebuildBundles   'imdb-api',
+204 verbose rebuildBundles   'jscs',
+204 verbose rebuildBundles   'jsdom',
+204 verbose rebuildBundles   'json-loader',
+204 verbose rebuildBundles   'mocha',
+204 verbose rebuildBundles   'mocha-jsdom',
+204 verbose rebuildBundles   'net',
+204 verbose rebuildBundles   'node-sass',
+204 verbose rebuildBundles   'postcss-loader',
+204 verbose rebuildBundles   'react',
+204 verbose rebuildBundles   'react-addons-test-utils',
+204 verbose rebuildBundles   'react-bootstrap',
+204 verbose rebuildBundles   'react-dom',
+204 verbose rebuildBundles   'react-redux',
+204 verbose rebuildBundles   'react-router',
+204 verbose rebuildBundles   'react-transform-hmr',
+204 verbose rebuildBundles   'react-transition-group',
+204 verbose rebuildBundles   'react-youtube',
+204 verbose rebuildBundles   'redux',
+204 verbose rebuildBundles   'redux-logger',
+204 verbose rebuildBundles   'redux-promise-middleware',
+204 verbose rebuildBundles   'redux-thunk',
+204 verbose rebuildBundles   'rimraf',
+204 verbose rebuildBundles   'sinon',
+204 verbose rebuildBundles   'sinon-chai',
+204 verbose rebuildBundles   'stats-webpack-plugin',
+204 verbose rebuildBundles   'style-loader',
+204 verbose rebuildBundles   'tls',
+204 verbose rebuildBundles   'webpack',
+204 verbose rebuildBundles   'webpack-dev-middleware',
+204 verbose rebuildBundles   'webpack-hot-middleware' ]
+205 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/S
+206 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/S
+207 info preinstall S@0.0.1
+208 info linkStuff S@0.0.1
+209 silly linkStuff S@0.0.1 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+210 verbose linkBins S@0.0.1
+211 verbose linkMans S@0.0.1
+212 verbose rebuildBundles S@0.0.1
+213 info install S@0.0.1
+214 info postinstall S@0.0.1
+215 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-core
+216 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-core
+217 info preinstall babel-core@6.18.2
+218 info linkStuff babel-core@6.18.2
+219 silly linkStuff babel-core@6.18.2 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+220 verbose linkBins babel-core@6.18.2
+221 verbose linkMans babel-core@6.18.2
+222 verbose rebuildBundles babel-core@6.18.2
+223 verbose rebuildBundles [ '.bin',
+223 verbose rebuildBundles   'babel-code-frame',
+223 verbose rebuildBundles   'babel-generator',
+223 verbose rebuildBundles   'babel-helpers',
+223 verbose rebuildBundles   'babel-messages',
+223 verbose rebuildBundles   'babel-register',
+223 verbose rebuildBundles   'babel-runtime',
+223 verbose rebuildBundles   'babel-template',
+223 verbose rebuildBundles   'babel-traverse',
+223 verbose rebuildBundles   'babel-types',
+223 verbose rebuildBundles   'babylon',
+223 verbose rebuildBundles   'convert-source-map',
+223 verbose rebuildBundles   'debug',
+223 verbose rebuildBundles   'json5',
+223 verbose rebuildBundles   'lodash',
+223 verbose rebuildBundles   'minimatch',
+223 verbose rebuildBundles   'path-is-absolute',
+223 verbose rebuildBundles   'private',
+223 verbose rebuildBundles   'slash',
+223 verbose rebuildBundles   'source-map' ]
+224 info install babel-core@6.18.2
+225 info postinstall babel-core@6.18.2
+226 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-react-relay
+227 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-react-relay
+228 info preinstall babel-plugin-react-relay@0.9.3-3
+229 info linkStuff babel-plugin-react-relay@0.9.3-3
+230 silly linkStuff babel-plugin-react-relay@0.9.3-3 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+231 verbose linkBins babel-plugin-react-relay@0.9.3-3
+232 verbose linkMans babel-plugin-react-relay@0.9.3-3
+233 verbose rebuildBundles babel-plugin-react-relay@0.9.3-3
+234 verbose rebuildBundles [ 'deasync', 'graphql-config-parser' ]
+235 info install babel-plugin-react-relay@0.9.3-3
+236 info postinstall babel-plugin-react-relay@0.9.3-3
+237 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators
+238 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators
+239 info preinstall babel-plugin-transform-decorators@6.13.0
+240 info linkStuff babel-plugin-transform-decorators@6.13.0
+241 silly linkStuff babel-plugin-transform-decorators@6.13.0 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+242 verbose linkBins babel-plugin-transform-decorators@6.13.0
+243 verbose linkMans babel-plugin-transform-decorators@6.13.0
+244 verbose rebuildBundles babel-plugin-transform-decorators@6.13.0
+245 verbose rebuildBundles [ 'babel-helper-define-map',
+245 verbose rebuildBundles   'babel-helper-explode-class',
+245 verbose rebuildBundles   'babel-plugin-syntax-decorators',
+245 verbose rebuildBundles   'babel-runtime',
+245 verbose rebuildBundles   'babel-template',
+245 verbose rebuildBundles   'babel-types' ]
+246 info install babel-plugin-transform-decorators@6.13.0
+247 info postinstall babel-plugin-transform-decorators@6.13.0
+248 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators-legacy
+249 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-plugin-transform-decorators-legacy
+250 info preinstall babel-plugin-transform-decorators-legacy@1.3.4
+251 info linkStuff babel-plugin-transform-decorators-legacy@1.3.4
+252 silly linkStuff babel-plugin-transform-decorators-legacy@1.3.4 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+253 verbose linkBins babel-plugin-transform-decorators-legacy@1.3.4
+254 verbose linkMans babel-plugin-transform-decorators-legacy@1.3.4
+255 verbose rebuildBundles babel-plugin-transform-decorators-legacy@1.3.4
+256 verbose rebuildBundles [ 'babel-plugin-syntax-decorators',
+256 verbose rebuildBundles   'babel-runtime',
+256 verbose rebuildBundles   'babel-template' ]
+257 info install babel-plugin-transform-decorators-legacy@1.3.4
+258 info postinstall babel-plugin-transform-decorators-legacy@1.3.4
+259 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin
+260 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin
+261 info preinstall babel-relay-plugin@0.9.3
+262 info linkStuff babel-relay-plugin@0.9.3
+263 silly linkStuff babel-relay-plugin@0.9.3 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+264 verbose linkBins babel-relay-plugin@0.9.3
+265 verbose linkMans babel-relay-plugin@0.9.3
+266 verbose rebuildBundles babel-relay-plugin@0.9.3
+267 verbose rebuildBundles [ 'graphql' ]
+268 info install babel-relay-plugin@0.9.3
+269 info postinstall babel-relay-plugin@0.9.3
+270 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin-loader
+271 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/babel-relay-plugin-loader
+272 info preinstall babel-relay-plugin-loader@0.9.0
+273 info linkStuff babel-relay-plugin-loader@0.9.0
+274 silly linkStuff babel-relay-plugin-loader@0.9.0 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+275 verbose linkBins babel-relay-plugin-loader@0.9.0
+276 verbose linkMans babel-relay-plugin-loader@0.9.0
+277 verbose rebuildBundles babel-relay-plugin-loader@0.9.0
+278 info install babel-relay-plugin-loader@0.9.0
+279 info postinstall babel-relay-plugin-loader@0.9.0
+280 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/compression-webpack-plugin
+281 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/compression-webpack-plugin
+282 info preinstall compression-webpack-plugin@0.3.2
+283 info linkStuff compression-webpack-plugin@0.3.2
+284 silly linkStuff compression-webpack-plugin@0.3.2 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+285 verbose linkBins compression-webpack-plugin@0.3.2
+286 verbose linkMans compression-webpack-plugin@0.3.2
+287 verbose rebuildBundles compression-webpack-plugin@0.3.2
+288 verbose rebuildBundles [ '.bin', 'async', 'node-zopfli', 'webpack-sources' ]
+289 info install compression-webpack-plugin@0.3.2
+290 info postinstall compression-webpack-plugin@0.3.2
+291 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/copy-webpack-plugin
+292 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/copy-webpack-plugin
+293 info preinstall copy-webpack-plugin@4.0.1
+294 info linkStuff copy-webpack-plugin@4.0.1
+295 silly linkStuff copy-webpack-plugin@4.0.1 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+296 verbose linkBins copy-webpack-plugin@4.0.1
+297 verbose linkMans copy-webpack-plugin@4.0.1
+298 verbose rebuildBundles copy-webpack-plugin@4.0.1
+299 verbose rebuildBundles [ 'bluebird',
+299 verbose rebuildBundles   'fs-extra',
+299 verbose rebuildBundles   'glob',
+299 verbose rebuildBundles   'is-glob',
+299 verbose rebuildBundles   'loader-utils',
+299 verbose rebuildBundles   'lodash',
+299 verbose rebuildBundles   'minimatch',
+299 verbose rebuildBundles   'node-dir' ]
+300 info install copy-webpack-plugin@4.0.1
+301 info postinstall copy-webpack-plugin@4.0.1
+302 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/express-graphql
+303 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/express-graphql
+304 info preinstall express-graphql@0.6.1
+305 info linkStuff express-graphql@0.6.1
+306 silly linkStuff express-graphql@0.6.1 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+307 verbose linkBins express-graphql@0.6.1
+308 verbose linkMans express-graphql@0.6.1
+309 verbose rebuildBundles express-graphql@0.6.1
+310 verbose rebuildBundles [ 'accepts', 'content-type', 'http-errors', 'raw-body' ]
+311 info install express-graphql@0.6.1
+312 info postinstall express-graphql@0.6.1
+313 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/fs
+314 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/fs
+315 info preinstall fs@0.0.1-security
+316 info linkStuff fs@0.0.1-security
+317 silly linkStuff fs@0.0.1-security has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+318 verbose linkBins fs@0.0.1-security
+319 verbose linkMans fs@0.0.1-security
+320 verbose rebuildBundles fs@0.0.1-security
+321 info install fs@0.0.1-security
+322 info postinstall fs@0.0.1-security
+323 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/graphql
+324 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/graphql
+325 info preinstall graphql@0.8.2
+326 info linkStuff graphql@0.8.2
+327 silly linkStuff graphql@0.8.2 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+328 verbose linkBins graphql@0.8.2
+329 verbose linkMans graphql@0.8.2
+330 verbose rebuildBundles graphql@0.8.2
+331 verbose rebuildBundles [ 'iterall' ]
+332 info install graphql@0.8.2
+333 info postinstall graphql@0.8.2
+334 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/imdb-api
+335 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/imdb-api
+336 info preinstall imdb-api@2.2.0
+337 info linkStuff imdb-api@2.2.0
+338 silly linkStuff imdb-api@2.2.0 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+339 verbose linkBins imdb-api@2.2.0
+340 verbose linkMans imdb-api@2.2.0
+341 verbose rebuildBundles imdb-api@2.2.0
+342 verbose rebuildBundles [ 'es6-promise', 'request', 'request-promise' ]
+343 info install imdb-api@2.2.0
+344 info postinstall imdb-api@2.2.0
+345 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/net
+346 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/net
+347 info preinstall net@1.0.2
+348 info linkStuff net@1.0.2
+349 silly linkStuff net@1.0.2 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+350 verbose linkBins net@1.0.2
+351 verbose linkMans net@1.0.2
+352 verbose rebuildBundles net@1.0.2
+353 info install net@1.0.2
+354 info postinstall net@1.0.2
+355 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-bootstrap
+356 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-bootstrap
+357 info preinstall react-bootstrap@0.30.7
+358 info linkStuff react-bootstrap@0.30.7
+359 silly linkStuff react-bootstrap@0.30.7 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+360 verbose linkBins react-bootstrap@0.30.7
+361 verbose linkMans react-bootstrap@0.30.7
+362 verbose rebuildBundles react-bootstrap@0.30.7
+363 verbose rebuildBundles [ 'babel-runtime',
+363 verbose rebuildBundles   'classnames',
+363 verbose rebuildBundles   'dom-helpers',
+363 verbose rebuildBundles   'invariant',
+363 verbose rebuildBundles   'keycode',
+363 verbose rebuildBundles   'react-overlays',
+363 verbose rebuildBundles   'react-prop-types',
+363 verbose rebuildBundles   'uncontrollable',
+363 verbose rebuildBundles   'warning' ]
+364 info install react-bootstrap@0.30.7
+365 info postinstall react-bootstrap@0.30.7
+366 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-router
+367 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-router
+368 info preinstall react-router@3.0.2
+369 info linkStuff react-router@3.0.2
+370 silly linkStuff react-router@3.0.2 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+371 verbose linkBins react-router@3.0.2
+372 verbose linkMans react-router@3.0.2
+373 verbose rebuildBundles react-router@3.0.2
+374 verbose rebuildBundles [ '.bin',
+374 verbose rebuildBundles   'history',
+374 verbose rebuildBundles   'hoist-non-react-statics',
+374 verbose rebuildBundles   'invariant',
+374 verbose rebuildBundles   'loose-envify',
+374 verbose rebuildBundles   'warning' ]
+375 info install react-router@3.0.2
+376 info postinstall react-router@3.0.2
+377 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-transition-group
+378 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-transition-group
+379 info preinstall react-transition-group@1.1.3
+380 info linkStuff react-transition-group@1.1.3
+381 silly linkStuff react-transition-group@1.1.3 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+382 verbose linkBins react-transition-group@1.1.3
+383 verbose linkMans react-transition-group@1.1.3
+384 verbose rebuildBundles react-transition-group@1.1.3
+385 verbose rebuildBundles [ 'chain-function', 'dom-helpers', 'prop-types', 'warning' ]
+386 info install react-transition-group@1.1.3
+387 info postinstall react-transition-group@1.1.3
+388 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-youtube
+389 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/react-youtube
+390 info preinstall react-youtube@7.3.0
+391 info linkStuff react-youtube@7.3.0
+392 silly linkStuff react-youtube@7.3.0 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+393 verbose linkBins react-youtube@7.3.0
+394 verbose linkMans react-youtube@7.3.0
+395 verbose rebuildBundles react-youtube@7.3.0
+396 verbose rebuildBundles [ 'lodash.isequal', 'youtube-player' ]
+397 info install react-youtube@7.3.0
+398 info postinstall react-youtube@7.3.0
+399 verbose rebuild bundle /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/tls
+400 info build /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules/tls
+401 info preinstall tls@0.0.1
+402 info linkStuff tls@0.0.1
+403 silly linkStuff tls@0.0.1 has /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/node_modules as its parent node_modules
+404 verbose linkBins tls@0.0.1
+405 verbose linkMans tls@0.0.1
+406 verbose rebuildBundles tls@0.0.1
+407 info install tls@0.0.1
+408 info postinstall tls@0.0.1
+409 info install abs@0.1.0
+410 info postinstall abs@0.1.0
+411 verbose unsafe-perm in lifecycle true
+412 info prepublish abs@0.1.0
+413 verbose validateInstall loading /Users/afrancis1/Downloads/back/externaldisk/react/core/friday/package.json for validation
+414 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+414 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+414 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+414 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+414 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+414 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+414 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+414 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+414 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+414 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+414 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+415 verbose cwd /Users/afrancis1/Downloads/back/externaldisk/react/core/friday
+416 error Darwin 16.5.0
+417 error argv "/usr/local/Cellar/node/7.3.0/bin/node" "/usr/local/bin/npm" "install"
+418 error node v4.4.1
+419 error npm  v2.14.20
+420 error code EPEERINVALID
+421 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+421 error peerinvalid Peer react-addons-test-utils@0.14.8 wants react@^0.14.8
+421 error peerinvalid Peer react-dom@0.14.8 wants react@^0.14.8
+421 error peerinvalid Peer react-redux@5.0.2 wants react@^0.14.0 || ^15.0.0-0
+421 error peerinvalid Peer react-router@3.0.2 wants react@^0.14.0 || ^15.0.0
+421 error peerinvalid Peer react-bootstrap@0.30.7 wants react@>=0.14.0
+421 error peerinvalid Peer react-youtube@7.3.0 wants react@>=0.14.1
+421 error peerinvalid Peer react-transition-group@1.1.3 wants react@^15.0.0
+422 verbose exit [ 1, true ]

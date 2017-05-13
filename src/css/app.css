@@ -1,0 +1,44 @@
+.space {
+  margin-bottom: 20px;
+}
+.scale {
+  font-size: 20px;
+  color: #DAF7A6;
+  cursor: pointer;
+}
+.scale:hover {
+  color: #FF5733;
+}
+.infoCard {
+  color: #34282C;
+  border-bottom: 1px solid #e1e1e1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.infoCard:hover {
+  cursor: pointer;
+  background-color: #F1FCDD;
+}
+
+.infoCardSelected {
+  color: #34282C;
+  border-bottom: 1px solid #e1e1e1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #F1FCDD;
+}
+.title {
+  font-weight: bold;
+}
+
+.placeSelection {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.placeSelection:hover {
+  background-color: #F1FCDD;
+}
+.specialLink {
+  color: orange;
+}
