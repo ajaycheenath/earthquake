@@ -8,12 +8,12 @@ An awesome web application to find all earthquakes in last 24 hours with magnitu
 
 TODO
 
-* Move login to read geojsonp file and rendering google map from index.html to component for better control over data
+* Move logic to read geojsonp file and rendering google map from index.html to component for better control over data
 * Mobile responsive
 * When user click on any actionble item, display a toast message to show the map got changed
 * Unit Testing
 * Code coverage
-* Can remove bootstrap dependency in order to load initial page faster
+* Remove bootstrap dependency in order to load initial page faster
 
 
 ### Modules available
