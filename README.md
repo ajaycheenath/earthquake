@@ -4,6 +4,8 @@
 An awesome web application to see Live earthquakes occurrences in last 24 hours.
 
 
+![Alt text](/earthquakes.png?raw=true "Earthquakes")
+
 TODO
 
 * Move login to read geojsonp file and rendering google map from index.html to component for better control over data
@@ -32,7 +34,7 @@ TODO
 
 ### Development tips
 
-Please all re-usable components in uic folder
+Please place re-usable components in uic folder
 
 
 ### Running application locally
