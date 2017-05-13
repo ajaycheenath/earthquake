@@ -1,7 +1,7 @@
 
 #### Version 0.1 (2017)
 
-An awesome web application to see Live earthquakes occurrences in last 24 hours.
+An awesome web application to find all earthquakes in last 24 hours with magnitude and place filter.
 
 
 ![Alt text](/earthquakes.png?raw=true "Earthquakes")
