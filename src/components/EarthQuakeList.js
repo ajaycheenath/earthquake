@@ -4,7 +4,15 @@ import appStyle from "../css/app.css";
 import Header from "../uic/Header";
 import Content from "../uic/Content";
 import {toDateTime} from "../config/Utils";
+
+//This class shows the list of earthquakes occurance in a right drawer.
+//Also allow user to click on each earthquake, which will display the occurance on google map
 class EarthQuakeList extends Component {
+
+  //use below method if we expect data change after mounting the component
+  componentWillReceiveProps(nextProps) {
+
+  }
 
   render() {
       const {earthquakePlaces} = window;

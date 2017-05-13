@@ -4,7 +4,14 @@ import appStyle from "../css/app.css";
 import Header from "../uic/Header";
 import Content from "../uic/Content";
 
+//This class shows the list of places and the number of earthquakes occurance in a right drawer.
+//Also allow user to click on each earthquake place, which will display all the occurances in that place on google map
 class EarthQuakePlaces extends Component {
+
+  //use below method if we expect data change after mounting the component
+  componentWillReceiveProps(nextProps) {
+
+  }
 
   render() {
       const {selectedPlace, show, showEarthQuakesPlaceOnMap, onClose, earthquakes, earthquakePlaces} = this.props;
@@ -24,8 +31,6 @@ class EarthQuakePlaces extends Component {
         </RightDrawer>
       );
   }
-
-
 }
 
 export default EarthQuakePlaces;
