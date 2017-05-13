@@ -3,6 +3,9 @@
 
 An awesome web application to find all earthquakes in last 24 hours with magnitude and place filter.
 
+You can find a running application [here](http://www.bestdoctorz.com:8082)
+
+
 
 ![Alt text](/earthquakes.png?raw=true "Earthquakes")
 
