@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import rangeStyle from "../css/range.css";
 class RangeSelector extends Component {
+  static propTypes = {
+        start: React.PropTypes.number,
+        end: React.PropTypes.number,
+        selectedRange: React.PropTypes.number,
+        onClick: React.PropTypes.func
+  };
   render() {
       const {start, end, selectedRange, onClick} = this.props;
       const range = [];

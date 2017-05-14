@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import Icon from "../uic/Icon";
 import iconStyle from "../css/icon.css";
 import drawerStyle from "../css/drawer.css";
-class Header extends Component {
+class Content extends Component {
+  static propTypes = {
+        children: React.PropTypes.array.isRequired
+  };
   render() {
     return (
         <div className={drawerStyle.content}>
@@ -12,4 +15,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Content;

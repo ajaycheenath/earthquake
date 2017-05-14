@@ -9,17 +9,9 @@ You can find a running application [here](http://www.bestdoctorz.com:8082)
 
 ![Alt text](/earthquakes.png?raw=true "Earthquakes")
 
-TODO
-
-* Move logic to read geojsonp file and rendering google map from index.html to component for better control over data
-* Mobile responsive
-* When user click on any actionble item, display a toast message to show the map got changed
-* Unit Testing
-* Code coverage
-* Remove bootstrap dependency in order to load initial page faster
 
 
-### Modules available
+### Modules Used
 
 * NodeJS (Express) server
 * ReactJS (UI rendering)
@@ -38,6 +30,17 @@ TODO
 ### Development tips
 
 Please place re-usable components in uic folder
+
+### TODO
+
+* Move logic to read geojsonp file and rendering google map from index.html to component for better control over data
+* Mobile responsive
+* When user click on any actionble item, display a toast message to show the map got changed
+* Unit Testing
+* Code coverage
+* Remove bootstrap dependency in order to load initial page faster
+* ~~propsType~~
+* On FF, right drawer animation not working
 
 
 ### Running application locally

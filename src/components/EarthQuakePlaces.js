@@ -8,6 +8,15 @@ import Content from "../uic/Content";
 //Also allow user to click on each earthquake place, which will display all the occurances in that place on google map
 class EarthQuakePlaces extends Component {
 
+  static propTypes = {
+        selectedPlace: React.PropTypes.string,
+        show: React.PropTypes.bool,
+        onClose: React.PropTypes.func,
+        showEarthQuakesPlaceOnMap: React.PropTypes.func,
+        earthquakes: React.PropTypes.array,
+        earthquakePlaces: React.PropTypes.array
+  };
+
   //use below method if we expect data change after mounting the component
   componentWillReceiveProps(nextProps) {
 

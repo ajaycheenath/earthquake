@@ -9,6 +9,15 @@ import {toDateTime} from "../config/Utils";
 //Also allow user to click on each earthquake, which will display the occurance on google map
 class EarthQuakeList extends Component {
 
+  static propTypes = {
+        showEarthQuakeOnMap: React.PropTypes.func,
+        show: React.PropTypes.bool,
+        onClose: React.PropTypes.func,
+        selectedID: React.PropTypes.string,
+        earthquakes: React.PropTypes.array
+  };
+
+
   //use below method if we expect data change after mounting the component
   componentWillReceiveProps(nextProps) {
 

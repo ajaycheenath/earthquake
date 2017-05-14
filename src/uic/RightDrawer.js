@@ -3,10 +3,17 @@ import drawerStyle from "../css/drawer.css";
 import Icon from "./Icon";
 //TODO work on animation refactor - explore react-transition-group
 class RightDrawer extends Component {
+  static propTypes = {
+        show: React.PropTypes.bool.isRequired,
+        onClose: React.PropTypes.func,
+        children: React.PropTypes.array.isRequired
+  };
+
   componentWillMount() {
     const {show} = this.props;
     this.setState({show});
   }
+
   onClose  = () =>{
     const {onClose} = this.props;
     this.setState({slideIn: false});

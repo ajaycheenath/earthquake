@@ -11,6 +11,14 @@ import {getAllEarthquakes, getAllEarthquakesMarkers, getAllEarthquakesPlaces, ge
 //This component shows three header its Over section, Magniture section and Affected places info
 class EarthquakesDetails extends Component {
 
+  static propTypes = {
+        showEarthQuakeOnMap: React.PropTypes.func,
+        show: React.PropTypes.bool,
+        onClose: React.PropTypes.func,
+        selectedID: React.PropTypes.string,
+        earthquakes: React.PropTypes.array
+  };
+
   constructor (props) {
     super(props);
     //Abstracted out earthquakes and map details so that in future we can move those into components without disturbing EarthquakesDetails component
@@ -79,7 +87,7 @@ class EarthquakesDetails extends Component {
   //Shows a specific earthquake area / place on google map
   showEarthQuakeOnMap = (selectedID) => {
     const {earthquakes, markers} = this.state;
-    this.setState({selectedID, showEarthQuakeList: false, selectedPlace: false, magnitudeFilter: undefined});
+    this.setState({selectedID, showEarthQuakeList: false, selectedPlace: undefined, magnitudeFilter: undefined});
     earthquakes.map( (earthquake, index) => {
         const {id, coords1, coords2} = earthquake;
         if(selectedID === id) {
